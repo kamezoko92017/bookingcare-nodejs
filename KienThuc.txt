@@ -76,3 +76,29 @@ Trong video này, chúng ta sẽ cùng nhau phân tích các bảng cơ sở d�
 cho dự án backend đặt lịch khám bệnh. Qua bước phân tích này, chúng ta sẽ hình dung
  được cần tạo những table nào (hay nói cách khác là các Models ứng với Sequelize), 
  từ đấy tạo tiền đề để có thể lấy được dữ liệu từ database.
+
+*****#23 Tạo Tất Cả Models, Migrations và Seeders Cho Dự Án Đặt Lịch Khám Bệnh - Phần 1******
+
+Trong video này, chúng ta sẽ cùng nhau tạo các models, migrations và seeder trên 
+server Node.js, từ đấy có thể tạo các tables trong database MySQL như đã phân tích 
+từ bài trước. Kết thúc video này, các bạn sẽ có được các table cần thiết cho 
+dự án backend website đặt lịch khám bệnh của chúng ta
+
+👀 File design Database (với data mẫu)  của mình :
+
+https://docs.google.com/spreadsheets/d/175ts9y-bJGAwEUtVEFojJQ4nFCH_lIU0poA0wVjM_lk/edit#gid=0
+
+- Định nghĩa các model trong thư mục /models
+- Trong /models/user.js:
+phần static associate(models) {
+      // define association here
+    }
+để định nghĩa các mối quan hệ
+- trong migrations để tự động map vào database
+- vào lại file trong migrations, chuyển kiểu dữ liệu của id từ INTEGER sang STRING 
+- Tạo các bảng data, mỗi table, cần tạo 1 file trong /models và 1 file trong /migrations
+
+*****#24 Tạo tất cả Models, Migrations và Seeders cho project - Phần 2*********
+
+
+
