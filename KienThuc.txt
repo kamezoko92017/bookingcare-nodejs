@@ -61,4 +61,13 @@ vào cuối file .env
 - Sau đó chạy lệnh: npx sequelize-cli db:migrate
 - Vào database sẽ thấy có 2 table mới
 
+*********#21 Kết Nối Tới MySQL Database với Sequelize - Render Dữ Liệu Ra View*******
+
+Sequelize là một package hỗ trợ sử dụng ORM với môi trường Node.JS . 
+Trong video này, chúng ta sẽ cùng nhau tìm hiểu cách kết nối tới database 
+với Sequelize, đồng thời học cách lấy dữ liệu từ database để render ra view.
+
+- Vào trang phpMyadmin, bảng Users, insert thêm 1 dòng dữ liệu (firstName, lastName, email)
+- Thêm logging: false để khi connect database không bị hiển thị log
+
 
