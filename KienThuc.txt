@@ -70,4 +70,9 @@ với Sequelize, đồng thời học cách lấy dữ liệu từ database đ�
 - Vào trang phpMyadmin, bảng Users, insert thêm 1 dòng dữ liệu (firstName, lastName, email)
 - Thêm logging: false để khi connect database không bị hiển thị log
 
+*****#22 Phân Tích Cơ Sở Dữ Liệu Dự Án Backend Đặt Lịch Khám Bệnh************
 
+Trong video này, chúng ta sẽ cùng nhau phân tích các bảng cơ sở dữ liệu sẽ dùng 
+cho dự án backend đặt lịch khám bệnh. Qua bước phân tích này, chúng ta sẽ hình dung
+ được cần tạo những table nào (hay nói cách khác là các Models ứng với Sequelize), 
+ từ đấy tạo tiền đề để có thể lấy được dữ liệu từ database.
